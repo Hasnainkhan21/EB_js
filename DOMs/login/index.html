@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN</title>
+    <link rel="stylesheet" href="./form.css">
+</head>
+<body>
+    <div class="left">
+    <form>
+        <label for="name">User Name:</label>
+        <input type="text" id="name" class="userData">
+        <label for="password">Password:</label>
+        <input type="password" id="password" class="userData">
+        <label for="email">E mail:</label>
+        <input type="email" id="email" class="userData">
+    </form>
+    <button onclick="getValue()" id="submit">Submit</button>
+</div>
+
+<div class="Right">
+    <table id="Table" border="5">
+        <tr>
+            <th>User Name</th>
+            <th id="uName"></th>
+            
+        </tr>
+
+        <tr>
+            <th>Password</th>
+            <th id="password2"></th>
+        </tr>
+
+        <tr>
+            <th>E mail</th>
+            <th id="eMail"></th>
+        </tr>
+    </table>
+</div>
+    <script src="./script.js"></script>
+</body>
+</html>
